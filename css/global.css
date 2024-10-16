@@ -1,0 +1,95 @@
+/*
+
+- Font sizes (px): 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+- Font weights: 400 / 500 / 600 / 700
+
+- Line heights: 1 / 1.05 / 1.2 / 1.6 / 1.8
+
+- Letter spacing: 0.5px / 0.75px / 2px
+
+- colors: #333 / #ccc / #fff / #DBDFE0 / #3E3735 / #847B7A
+
+- SHADOWS : 
+
+- Background: 
+
+- BORDER-RADIUS: 4px / 9px / 11px
+
+- Spacing system (px): 2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+*/
+
+/* Start Gloabl Styles */
+
+* {
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+}
+
+html {
+
+    font-size: 62.5%; /* 1rem = 10px */
+
+}
+
+body {
+
+    font-family: "Montserrat", sans-serif;
+
+    background-color: #E4E8E9;
+
+    color: #333;
+
+}
+
+ul {
+
+    list-style: none;
+
+}
+
+a {
+
+    text-decoration: none;
+    
+}
+
+/* End Gloabl Styles */
+
+/* Start Components Styles */
+
+.cart-btn {
+
+    width: 2.4rem;
+
+    height: 2.4rem;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    background-color: #847B7A;
+
+    border-radius: 4px;
+
+    border: none;
+
+    font-size: 1.6rem;
+
+    font-weight: 600;
+
+    color: #fff;
+
+    cursor: pointer;
+
+}
+
+/* End Components Styles */

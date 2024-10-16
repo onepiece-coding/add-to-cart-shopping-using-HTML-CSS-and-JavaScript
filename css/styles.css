@@ -1,0 +1,396 @@
+/* Start Header Styles */
+
+.header {
+
+    padding: 1.6rem 1.6rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    border-bottom: 1px solid #ccc;
+
+}
+
+.brand {
+
+    font-size: 1.4rem;
+
+    font-weight: 600;
+
+    letter-spacing: 0.5px;
+
+}
+
+.brand a {
+
+    color: #333;
+
+}
+
+.open-shopping-cart-btn {
+
+    position: relative;
+
+    background-color: transparent;
+
+    border: none;
+
+    display: flex;
+
+    cursor: pointer;
+
+}
+
+.open-shopping-cart-btn img {
+
+    max-width: 2.4rem;
+
+}
+
+.open-shopping-cart-btn span {
+
+    position: absolute;
+
+    top: -.4rem;
+
+    right: -.4rem;
+
+    width: 1.6rem;
+
+    height: 1.6rem;
+
+    border-radius: 50%;
+
+    background-color: red;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 1.4rem;
+
+    font-weight: 500;
+
+    color: #fff;
+
+}
+
+/* End Header Styles */
+
+/* Start Main Products Styles */
+
+.main-products {
+
+    padding: 1.6rem 1.6rem;
+
+    display: grid;
+
+    gap: 1.6rem;
+
+}
+
+.main-product {
+
+    padding: 1.6rem 1.6rem 2rem 1.6rem;
+
+    border-radius: 9px;
+
+    background-color: #DBDFE0;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    gap: 1.4rem;
+
+}
+
+.main-product--img {
+
+    display: flex;
+
+}
+
+.main-product--img img {
+
+    max-width: 100%;
+
+    object-fit: cover;
+
+}
+
+.main-product--name {
+
+    font-size: 1.4rem;
+
+    font-weight: 600;
+
+    text-transform: uppercase;
+
+    letter-spacing: 0.5px;
+
+}
+
+.main-product--price {
+
+    font-size: 1.4rem;
+    
+    font-weight: 600;
+
+    letter-spacing: 0.5px;
+
+}
+
+.add-to-cart-btn {
+
+    margin-top: .4rem;
+    
+    display: block;
+
+    padding: .8rem 2.4rem;
+
+    background-color: #333;
+
+    border-radius: 4px;
+
+    font-size: 1.4rem;
+    
+    font-weight: 500;
+
+    letter-spacing: 0.5px;
+
+    color: #fff;
+
+    cursor: pointer;
+
+}
+
+/* End Main Products Styles */
+
+/* Start Aside Cart Styles */
+
+.cart {
+
+    position: fixed;
+
+    top: 0;
+
+    right: 0;
+
+    width: 100%;
+
+    height: 100vh;
+
+    overflow: auto;
+
+    padding: 1.6rem;
+
+    display: flex;
+
+    flex-direction: column;
+
+    background-color: #3E3735;
+
+    transform: translateX(100%);
+
+    transition: transform .4s;
+
+}
+
+.cart::-webkit-scrollbar {
+
+    display: none;
+
+}
+
+.cart.show {
+
+    transform: translateX(0);
+
+}
+
+.cart-header {
+
+    margin-bottom: 3.2rem;
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+}
+
+.cart-title {
+
+    font-size: 1.6rem;
+
+    font-weight: 600;
+
+    letter-spacing: 0.5px;
+
+    color: #fff;
+
+}
+
+.cart-items {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 1.6rem;
+
+    margin-bottom: 3.2rem;
+
+}
+
+.cart-item,
+.cart-item--data {
+
+    display: flex;
+
+    align-items: center;
+
+}
+
+.cart-item {
+
+    justify-content: space-between;
+
+}
+
+.cart-item--data {
+
+    gap: 1.6rem;
+
+}
+
+.cart-item--img {
+
+    display: flex;
+
+}
+
+.cart-item--img img {
+
+    max-width: 8rem;
+
+}
+
+.cart-item--info {
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: .8rem;
+
+}
+
+.cart-item--title,
+.cart-item--price,
+.cart-item--quantity-value {
+
+    font-weight: 500;
+
+    letter-spacing: .5px;
+
+    color: #fff;
+
+}
+
+.cart-item--title {
+
+    font-size: 1.4rem;
+
+}
+
+.cart-item--price {
+
+    font-size: 1.2rem;
+
+}
+
+.cart-item--quantity {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: .8rem;
+
+}
+
+.cart-item--quantity-value {
+
+    font-size: 1.2rem;
+
+}
+
+.aside-footer {
+
+    margin-top: auto;
+
+    padding: .8rem 1.6rem;
+    
+    width: 100%;
+
+    background-color: #847B7A;
+
+    border-radius: 4px;
+
+    font-size: 1.6rem;
+
+    font-weight: 500;
+
+    letter-spacing: 0.5px;
+
+    text-align: center;
+
+    color: #fff;
+
+}
+
+.empty-cart {
+
+    font-size: 1.6rem;
+    
+    font-weight: 500;
+
+    letter-spacing: 0.5px;
+
+    color: red;
+
+}
+
+/* End Aside Cart Styles */
+
+/* Start Footer Styles */
+
+.footer {
+
+    padding: 1.6rem 1.6rem;
+
+    border-top: 1px solid #ccc;
+
+    text-align: center;
+
+    font-size: 1.4rem;
+    
+    font-weight: 500;
+
+    line-height: 1.8;
+
+    letter-spacing: 0.5px;
+
+}
+
+/* End Footer Styles */

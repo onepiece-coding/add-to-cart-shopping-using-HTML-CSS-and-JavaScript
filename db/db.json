@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "product_image": "1.png",
+      "product_title": "Product Name 1",
+      "product_price": 120
+    },
+    {
+      "product_image": "2.png",
+      "product_title": "Product Name 2",
+      "product_price": 130
+    },
+    {
+      "product_image": "3.png",
+      "product_title": "Product Name 3",
+      "product_price": 220
+    },
+    {
+      "product_image": "4.png",
+      "product_title": "Product Name 4",
+      "product_price": 125
+    },
+    {
+      "product_image": "5.png",
+      "product_title": "Product Name 5",
+      "product_price": 150
+    },
+    {
+      "product_image": "6.png",
+      "product_title": "Product Name 6",
+      "product_price": 160
+    }
+  ],
+  "cart": []
+}

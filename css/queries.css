@@ -1,0 +1,117 @@
+@media screen and (min-width: 600px) {
+
+    /* Start Header Styles */
+
+    .brand {
+
+        font-size: 1.6rem;
+
+    }
+
+    .toggle-shopping-cart-btn img {
+
+        max-width: 3rem;
+
+    }
+
+    /* End Header Styles */
+
+    /* Start Main Products Styles */
+    
+        .main-products {
+    
+            grid-template-columns: repeat(2, 1fr);
+    
+        }
+    
+    /* End Main Products Styles */
+
+    /* Start Aside Cart Styles */
+
+    .cart {
+
+        width: 400px;
+
+    }
+
+    /* End Aside Cart Styles */
+
+}
+
+@media screen and (min-width: 900px) {
+
+    /* Start Header Styles */
+
+    .header {
+    
+        padding: 1.6rem 3.2rem;
+    
+    }
+
+    /* End Header Styles */
+
+    /* Start Main Products Styles */
+
+    .main-products {
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    /* End Main Products Styles */
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    /* Start Header Styles */
+
+    .header {
+    
+        padding: 1.6rem 4.8rem;
+    
+    }
+
+    .brand {
+
+        font-size: 2rem;
+
+    }
+
+    .toggle-shopping-cart-btn img {
+
+        max-width: 3.2rem;
+
+    }
+
+    /* End Header Styles */
+
+    /* Start Main Products Styles */
+    
+    .main-products {
+
+        padding: 1.6rem 4.8rem;
+
+        grid-template-columns: repeat(3, 1fr);
+
+    }
+
+    .main-product--name,
+    .main-product--price,
+    .add-to-cart-btn {
+
+        font-size: 1.6rem;
+
+    }
+
+    .add-to-cart-btn {
+
+        width: 100%;
+
+    }
+    
+    /* End Main Products Styles */
+
+}
+
+@media screen and (hover: hover) {}
