@@ -2,10 +2,6 @@
 
 This is a simple shopping cart application built using HTML, CSS, and JavaScript. It demonstrates the core concepts of adding products to a cart, updating quantities, and calculating the total price. The project also uses `json-server` to simulate a backend API for fetching product data.
 
-## Demo
-
-[Insert a link to a live demo or a GIF/screenshot of your project]
-
 ## Features
 
 - Display a list of products.
