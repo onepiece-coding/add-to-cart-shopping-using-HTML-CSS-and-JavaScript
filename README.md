@@ -66,10 +66,10 @@ This will start a local server at http://localhost:3000 serving the data from db
 ### Project Structure
 
 .
-├── index.html        # Main HTML file /
-├── style.css         # Styles for the project /
-├── script.js         # Main JavaScript  /
-├── db.json           # JSON file for `json-server` to simulate backend data /
+├── index.html        # Main HTML file <br />
+├── style.css         # Styles for the project <br />
+├── script.js         # Main JavaScript  <br />
+├── db.json           # JSON file for `json-server` to simulate backend data <br />
 ├── README.md         # Project documentation
 
 ### Usage
